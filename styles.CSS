@@ -1,16 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+:root {
+    --primary-color:  red;
+
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
 }
 
 .container {
-     padding-left: 1rem;
-     padding-right: 1rem;
+     padding: 0rem 1rem;
 }
 
 .container-center {
     max-width: 600px;
     margin: auto;
 }
+.link {
+    text-decoration: none;
+    padding: 0.7rem 2 rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    color: white
+    
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.6rem;
+    border: 1px solid var(--primary-color);
+}
+
 
